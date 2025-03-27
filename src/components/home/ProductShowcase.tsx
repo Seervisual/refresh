@@ -1,0 +1,68 @@
+import React from 'react';
+import Link from 'next/link';
+
+const ProductCard = ({
+  title,
+  description,
+  imageSrc,
+  imageAlt,
+  link
+}: {
+  title: string;
+  description: string;
+  imageSrc: string;
+  imageAlt: string;
+  link: string;
+}) => {
+  return (
+    <Link
+      href={link}
+      className="block bg-white p-6 rounded-lg hover:shadow-lg transition duration-300 text-center border border-gray-100"
+    >
+      <div className="aspect-square relative mb-6">
+        {/* Using regular img tag instead of Next.js Image component for static export */}
+        <img
+          src={imageSrc}
+          alt={imageAlt}
+          className="w-full h-full object-contain p-4"
+        />
+      </div>
+      <h3 className="text-2xl font-semibold mb-2 text-opal-dark">{title}</h3>
+      <p className="text-gray-600">{description}</p>
+    </Link>
+  );
+};
+
+const ProductShowcase = () => {
+  return (
+    <section className="py-24 bg-opal-light">
+      <div className="opal-container">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <ProductCard
+            title="Tadpole"
+            description="The tiny webcam with a clip"
+            imageSrc="/images/tadpole.png"
+            imageAlt="Opal Tadpole Webcam"
+            link="/opal-tadpole"
+          />
+          <ProductCard
+            title="Opal C1"
+            description="The first professional webcam"
+            imageSrc="/images/c1.png"
+            imageAlt="Opal C1 Professional Webcam"
+            link="/opal-c1"
+          />
+          <ProductCard
+            title="Composer"
+            description="The magic behind the camera"
+            imageSrc="/images/composer.png"
+            imageAlt="Opal Composer Software"
+            link="/opal-composer"
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ProductShowcase;
