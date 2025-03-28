@@ -3,10 +3,10 @@
 
 [build]
   command = "npm run build"
-  publish = ".next" # Matches the server-side rendering output Matches the static export directory
+  publish = ".next" # Matches the SSR output directory
 
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs"
+  package = "@netlify/plugin-nextjs" # Re-enable the Next.js plugin for SSR
