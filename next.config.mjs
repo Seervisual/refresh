@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  distDir: 'out',
+  output: 'standalone', // Use 'standalone' for server-side rendering
+  distDir: '.next', // Matches the publish directory in netlify.toml
   images: {
     unoptimized: true,
   },
