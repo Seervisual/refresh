@@ -9,7 +9,7 @@ const Hero = () => {
         {/* Background Image - Using div with background image for static site compatibility */}
         <div
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(/images/hero-sm.webp)' }}
+          style={{ backgroundImage: 'url(/images/forma_website_reformed_hero.jpg)' }}
         />
 
         {/* Content Overlay */}
@@ -17,15 +17,15 @@ const Hero = () => {
           <div className="opal-container">
             <div className="max-w-xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl mb-4 font-light">
-                The first webcam<br />
-                designed for laptops.
+                Designed to outperform<br />
+                
               </h1>
               <div className="mt-8">
                 <Link
                   href="/opal-tadpole"
                   className="inline-block bg-opal-yellow text-opal-dark font-medium px-6 py-3 rounded-full hover:bg-opacity-90 transition-colors"
                 >
-                  Available now for $129.
+                  presale on now $200 <strong>(71 left)</strong>.
                 </Link>
               </div>
             </div>

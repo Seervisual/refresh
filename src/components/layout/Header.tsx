@@ -17,14 +17,19 @@ const Header = () => {
       {/* Promo banner */}
       <div className="bg-opal-yellow text-opal-dark text-center py-1 px-4 text-sm flex items-center justify-center">
         <p className="max-w-screen-lg mx-auto font-medium">
-          Take $50 off any order $200 USD or more with code <strong>ANY50</strong>
+          Free shipping on any orders  <strong>+$199</strong>
         </p>
       </div>
 
       <div className="opal-container flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <span className="text-white text-2xl font-semibold">Opal</span>
+          <Image
+            src="/images/logo.png" // Replace with the actual path to your logo image
+            alt="forma logo"
+            width={120} // Adjust width as needed
+            height={40} // Adjust height as needed
+          />
         </Link>
 
         {/* Desktop Navigation */}
@@ -34,9 +39,9 @@ const Header = () => {
               Products
             </button>
             <div className="absolute top-full left-0 w-48 hidden group-hover:block bg-opal-dark border border-gray-800 rounded-md overflow-hidden">
-              <Link href="/opal-tadpole" className="block px-4 py-2 hover:bg-gray-800">Tadpole</Link>
-              <Link href="/opal-c1" className="block px-4 py-2 hover:bg-gray-800">C1</Link>
-              <Link href="/opal-composer" className="block px-4 py-2 hover:bg-gray-800">Composer</Link>
+              <Link href="/opal-tadpole" className="block px-4 py-2 hover:bg-gray-800">uno</Link>
+              <Link href="/opal-c1" className="block px-4 py-2 hover:bg-gray-800">due</Link>
+              <Link href="/opal-composer" className="block px-4 py-2 hover:bg-gray-800">futura</Link>
             </div>
           </div>
           <div className="relative group">

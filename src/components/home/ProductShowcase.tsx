@@ -39,23 +39,23 @@ const ProductShowcase = () => {
       <div className="opal-container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <ProductCard
-            title="Tadpole"
-            description="The tiny webcam with a clip"
-            imageSrc="/images/tadpole.png"
+            title="UNO"
+            description="a traditional pull, modernised"
+            imageSrc="/images/formaUNO_website_01.png"
             imageAlt="Opal Tadpole Webcam"
             link="/opal-tadpole"
           />
           <ProductCard
-            title="Opal C1"
-            description="The first professional webcam"
-            imageSrc="/images/c1.png"
+            title="DUE"
+            description="an evolution of climbing training"
+            imageSrc="/images/formaDUE_website_01.png"
             imageAlt="Opal C1 Professional Webcam"
             link="/opal-c1"
           />
           <ProductCard
-            title="Composer"
-            description="The magic behind the camera"
-            imageSrc="/images/composer.png"
+            title="FUTURA"
+            description="a reminder to stay in the present"
+            imageSrc="/images/futura_website.png"
             imageAlt="Opal Composer Software"
             link="/opal-composer"
           />
