@@ -72,9 +72,9 @@
   "rewrites": {
     "beforeFiles": [
       {
-        "source": "//_next/:path+",
+        "source": "/.//_next/:path+",
         "destination": "/_next/:path+",
-        "regex": "^//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
+        "regex": "^/\\.//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
       }
     ],
     "afterFiles": [],

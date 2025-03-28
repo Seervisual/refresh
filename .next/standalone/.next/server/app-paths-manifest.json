@@ -1,8 +1,0 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/opal-c1/page": "app/opal-c1/page.js",
-  "/page": "app/page.js",
-  "/opal-composer/page": "app/opal-composer/page.js",
-  "/about/page": "app/about/page.js",
-  "/opal-tadpole/page": "app/opal-tadpole/page.js"
-}

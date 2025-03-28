@@ -1,7 +1,7 @@
 {
   "version": 4,
   "routes": {
-    "/opal-composer": {
+    "/": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -14,8 +14,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/opal-composer",
-      "dataRoute": "/opal-composer.rsc",
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -73,7 +73,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/": {
+    "/opal-composer": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -86,8 +86,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
+      "srcRoute": "/opal-composer",
+      "dataRoute": "/opal-composer.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -125,8 +125,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "0cd795ffab246773f6da10610973d2ec",
-    "previewModeSigningKey": "e5f642f8cba538459f634471ae877513ed83363a6c7c04ffff412897feef5c15",
-    "previewModeEncryptionKey": "efe1a2e684c379c9a098586450fcdb6518183c132854e017f94695ae819befe2"
+    "previewModeId": "f9e3cb515b33c23c4bb29b82c34a6b37",
+    "previewModeSigningKey": "b688fc5bbc5603823603ee766d522fd6817e8308b886bc89f8d37cc4850a2ea7",
+    "previewModeEncryptionKey": "2979b87d617d0c4877bd961d6ff295d30eb9efdec4d0a07add500ba716d6a19b"
   }
 }
