@@ -6,7 +6,8 @@
     "dev": "npx next dev",
     "build": "next build",
     "start": "npx next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "cp src/_redirects out/_redirects"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

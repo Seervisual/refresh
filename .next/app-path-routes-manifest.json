@@ -1,8 +1,8 @@
 {
   "/_not-found/page": "/_not-found",
-  "/opal-composer/page": "/opal-composer",
   "/about/page": "/about",
-  "/opal-c1/page": "/opal-c1",
   "/page": "/",
+  "/opal-composer/page": "/opal-composer",
+  "/opal-c1/page": "/opal-c1",
   "/opal-tadpole/page": "/opal-tadpole"
 }

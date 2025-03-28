@@ -1,54 +1,6 @@
 {
   "version": 4,
   "routes": {
-    "/": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/about": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/about",
-      "dataRoute": "/about.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/opal-tadpole": {
       "experimentalBypassFor": [
         {
@@ -73,6 +25,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/opal-composer": {
       "experimentalBypassFor": [
         {
@@ -88,6 +64,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/opal-composer",
       "dataRoute": "/opal-composer.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/about": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -125,8 +125,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "f9e3cb515b33c23c4bb29b82c34a6b37",
-    "previewModeSigningKey": "b688fc5bbc5603823603ee766d522fd6817e8308b886bc89f8d37cc4850a2ea7",
-    "previewModeEncryptionKey": "2979b87d617d0c4877bd961d6ff295d30eb9efdec4d0a07add500ba716d6a19b"
+    "previewModeId": "f7294d594fa92c1cf61537322aeec8aa",
+    "previewModeSigningKey": "7d1357fc349489beea9a902575395a5775dabddb04bd4f7573a2ffa6dad20e1b",
+    "previewModeEncryptionKey": "ccd0f0484d9602b69b3e0a7a801577329b13fad3f52341c6a13f2d791c21f250"
   }
 }
