@@ -1,4 +1,4 @@
-// File: D:\SEER\Projects\2024\forma\Social Media\Website\Github\opal-clone\src\app\page.tsx
+// File: D:\SEER\Projects\2024\forma\Social Media\Website\Github\forma_website_reformed\src\app\page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
