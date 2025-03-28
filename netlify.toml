@@ -3,7 +3,7 @@
 
 [build]
   command = "npm run build"
-  publish = ".next"
+  publish = ".next" # Matches the server-side rendering output Matches the static export directory
 
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
