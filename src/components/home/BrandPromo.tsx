@@ -6,16 +6,16 @@ const BrandPromo = () => {
     <section className="bg-opal-dark text-white py-24">
       <div className="opal-container">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-7xl md:text-8xl lg:text-9xl font-light mb-12">Opal</h2>
+          <h2 className="text-7xl md:text-8xl lg:text-9xl font-light mb-12">FORMA</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
               <h3 className="text-3xl md:text-4xl font-light mb-6">
                 Subscribe to the<br />
-                Opal Newsletter
+                forma newsletter
               </h3>
               <p className="text-gray-400 mb-6">
-                Latest news, musings, announcements and updates direct to your inbox.
+                We promise to notify you only when necessary. Maybe.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 max-w-md">
                 <input

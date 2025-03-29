@@ -1,7 +1,7 @@
 {
   "version": 4,
   "routes": {
-    "/opal-tadpole": {
+    "/about": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -14,8 +14,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/opal-tadpole",
-      "dataRoute": "/opal-tadpole.rsc",
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -49,7 +49,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/opal-composer": {
+    "/opal-tadpole": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -62,32 +62,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/opal-composer",
-      "dataRoute": "/opal-composer.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/about": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/about",
-      "dataRoute": "/about.rsc",
+      "srcRoute": "/opal-tadpole",
+      "dataRoute": "/opal-tadpole.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -120,13 +96,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/opal-composer": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/opal-composer",
+      "dataRoute": "/opal-composer.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "f7294d594fa92c1cf61537322aeec8aa",
-    "previewModeSigningKey": "7d1357fc349489beea9a902575395a5775dabddb04bd4f7573a2ffa6dad20e1b",
-    "previewModeEncryptionKey": "ccd0f0484d9602b69b3e0a7a801577329b13fad3f52341c6a13f2d791c21f250"
+    "previewModeId": "5df9ef8fad44a39a09f0c34873c973e4",
+    "previewModeSigningKey": "b83886b8898a07b05aa3a9bd0e7d10bf612c56970fc73c0fa36eacd31145db20",
+    "previewModeEncryptionKey": "57d43a95fa059a5578b1d215e6b5355fe14ffdc74f22e8831078b0d3b7094ac8"
   }
 }

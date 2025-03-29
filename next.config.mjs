@@ -7,7 +7,7 @@ const nextConfig = {
   },
   transpilePackages: ["lucide-react"],
   reactStrictMode: true,
-  assetPrefix: './', // Use './' for relative paths in static export
+  assetPrefix: process.env.NODE_ENV === 'production' ? './' : '', // Ensure '' for local development
 };
 
 export default nextConfig;

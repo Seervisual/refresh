@@ -25,7 +25,7 @@ const Hero = () => {
                   href="/opal-tadpole"
                   className="inline-block bg-opal-yellow text-opal-dark font-medium px-6 py-3 rounded-full hover:bg-opacity-90 transition-colors"
                 >
-                  presale on now $200 <strong>(71 left)</strong>.
+                  presale available now for $200 <strong>(71 left)</strong>.
                 </Link>
               </div>
             </div>
