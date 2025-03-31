@@ -22,5 +22,6 @@
             "sourceMaps": true,
             "outFiles": ["${workspaceFolder}/dist/**/*.js"]
         }
-    ]
+    ],
+    "postbuild": "cp src/_redirects out/_redirects"
 }

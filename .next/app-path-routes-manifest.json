@@ -1,8 +1,10 @@
 {
   "/_not-found/page": "/_not-found",
-  "/about/page": "/about",
-  "/opal-tadpole/page": "/opal-tadpole",
-  "/opal-composer/page": "/opal-composer",
+  "/APP/page": "/APP",
+  "/Coming_soon/page": "/Coming_soon",
+  "/DUE_presale/page": "/DUE_presale",
+  "/FUTURA/page": "/FUTURA",
+  "/UNO/page": "/UNO",
   "/page": "/",
-  "/opal-c1/page": "/opal-c1"
+  "/about/page": "/about"
 }

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function C1Page() {
   return (
-    <div className="bg-opal-dark text-white">
+    <div className="bg-opal-light text-">
       {/* Hero Section */}
       <section className="py-16 md:py-24">
         <div className="opal-container">
@@ -47,24 +47,32 @@ export default function C1Page() {
       <section className="py-16 bg-black">
         <div className="opal-container">
           <h2 className="text-3xl md:text-4xl font-light mb-12 text-center">
+          <p className="text-gray-300">
           All the training you need, in the palm of your hand.
+          </p>
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
             <div className="text-center">
+            <p className="text-gray-300">
               <h3 className="text-xl font-medium mb-4">Outer space quality</h3>
+              </p>
               <p className="text-gray-300">
               Milled from a solid block of aluminium and bluetooth enabled, we created the next gen training tool weighing under 300g that fits in your pocket!
               </p>
             </div>
             <div className="text-center">
+            <p className="text-gray-300">
               <h3 className="text-xl font-medium mb-4">20mm True Edge</h3>
+              </p>
               <p className="text-gray-300">
                 Adjusted for angle tilt, our custom 20mm edge will give you accurate and consistent pulling.
               </p>
             </div>
             <div className="text-center">
+            <p className="text-gray-300">
               <h3 className="text-xl font-medium mb-4">Community App</h3>
+              </p>
               <p className="text-gray-300">
                 With our inhouse built training app, join the next generation of crushers and track your progress.
               </p>
@@ -112,11 +120,13 @@ export default function C1Page() {
       {/* App section */}
       <section className="py-16 bg-gradient-to-b from-black to-gray-900">
         <div className="opal-container">
+          <p className="text-gray-300">
         <h2 className="text-3xl md:text-4xl font-light mb-12 text-center">
         Data driven training
           </h2>
           <p className="text-xl text-center max-w-3xl mx-auto mb-12">
           The DUE is powered by our in house built, integrated iOS/Android mobile app. Track - real time, with historical data to improve your workouts the more you session. 
+          </p>
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative aspect-square">
@@ -125,8 +135,11 @@ export default function C1Page() {
                 alt="Opal Composer Software"
                 className="w-full h-full object-contain"
               />
+              
             </div>
             <div>
+            <p className="text-gray-300">
+              </p>
                <h2 className="text-2xl md:text-2xl font-light mb-8">
               OTA (Over The Air) updates
               </h2>

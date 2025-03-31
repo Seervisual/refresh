@@ -1,7 +1,6 @@
 {
   "/page": "app/page.js",
-  "/APP/page": "app/APP/page.js",
-  "/Coming_soon/page": "app/Coming_soon/page.js",
-  "/UNO/page": "app/UNO/page.js",
-  "/FUTURA/page": "app/FUTURA/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/DUE_presale/page": "app/DUE_presale/page.js",
+  "/UNO/page": "app/UNO/page.js"
 }

@@ -6,48 +6,63 @@
       "static/chunks/684-f9af55c783b9bdd4.js",
       "static/chunks/main-app-10444e01d2c95d3f.js",
       "static/chunks/874-0715c6660f33056f.js",
-      "static/chunks/app/not-found-3563843a17967502.js"
+      "static/chunks/app/not-found-769e4142e13913c7.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack-13274d9ba9221a33.js",
       "static/chunks/4bd1b696-c16587c8867eaccc.js",
       "static/chunks/684-f9af55c783b9bdd4.js",
       "static/chunks/main-app-10444e01d2c95d3f.js",
-      "static/chunks/app/_not-found/page-b72775331b0d468e.js"
+      "static/chunks/app/_not-found/page-4187ba09fbf37f14.js"
     ],
     "/layout": [
       "static/chunks/webpack-13274d9ba9221a33.js",
       "static/chunks/4bd1b696-c16587c8867eaccc.js",
       "static/chunks/684-f9af55c783b9bdd4.js",
       "static/chunks/main-app-10444e01d2c95d3f.js",
-      "static/css/fd16172439c25d91.css",
+      "static/css/93213470ba39d00d.css",
       "static/chunks/874-0715c6660f33056f.js",
       "static/chunks/443-4929e2fdf92cb711.js",
-      "static/chunks/app/layout-649602c342c33896.js"
+      "static/chunks/app/layout-a9f144a6b66bcc1c.js"
     ],
-    "/about/page": [
+    "/APP/page": [
       "static/chunks/webpack-13274d9ba9221a33.js",
       "static/chunks/4bd1b696-c16587c8867eaccc.js",
       "static/chunks/684-f9af55c783b9bdd4.js",
       "static/chunks/main-app-10444e01d2c95d3f.js",
       "static/chunks/874-0715c6660f33056f.js",
-      "static/chunks/app/about/page-9bae85772df51b92.js"
+      "static/chunks/app/APP/page-74025790095808ee.js"
     ],
-    "/opal-tadpole/page": [
+    "/Coming_soon/page": [
+      "static/chunks/webpack-13274d9ba9221a33.js",
+      "static/chunks/4bd1b696-c16587c8867eaccc.js",
+      "static/chunks/684-f9af55c783b9bdd4.js",
+      "static/chunks/main-app-10444e01d2c95d3f.js",
+      "static/chunks/app/Coming_soon/page-3aad7d9c1c572707.js"
+    ],
+    "/DUE_presale/page": [
       "static/chunks/webpack-13274d9ba9221a33.js",
       "static/chunks/4bd1b696-c16587c8867eaccc.js",
       "static/chunks/684-f9af55c783b9bdd4.js",
       "static/chunks/main-app-10444e01d2c95d3f.js",
       "static/chunks/874-0715c6660f33056f.js",
-      "static/chunks/app/opal-tadpole/page-d7fd7622589fd515.js"
+      "static/chunks/app/DUE_presale/page-f1c3dc5da1021790.js"
     ],
-    "/opal-composer/page": [
+    "/FUTURA/page": [
       "static/chunks/webpack-13274d9ba9221a33.js",
       "static/chunks/4bd1b696-c16587c8867eaccc.js",
       "static/chunks/684-f9af55c783b9bdd4.js",
       "static/chunks/main-app-10444e01d2c95d3f.js",
       "static/chunks/874-0715c6660f33056f.js",
-      "static/chunks/app/opal-composer/page-0ca07af70dbc5a6c.js"
+      "static/chunks/app/FUTURA/page-80ba6d1dcb7ddd5b.js"
+    ],
+    "/UNO/page": [
+      "static/chunks/webpack-13274d9ba9221a33.js",
+      "static/chunks/4bd1b696-c16587c8867eaccc.js",
+      "static/chunks/684-f9af55c783b9bdd4.js",
+      "static/chunks/main-app-10444e01d2c95d3f.js",
+      "static/chunks/874-0715c6660f33056f.js",
+      "static/chunks/app/UNO/page-161b6ee95e15bf58.js"
     ],
     "/page": [
       "static/chunks/webpack-13274d9ba9221a33.js",
@@ -57,13 +72,13 @@
       "static/chunks/874-0715c6660f33056f.js",
       "static/chunks/app/page-945547cee0728400.js"
     ],
-    "/opal-c1/page": [
+    "/about/page": [
       "static/chunks/webpack-13274d9ba9221a33.js",
       "static/chunks/4bd1b696-c16587c8867eaccc.js",
       "static/chunks/684-f9af55c783b9bdd4.js",
       "static/chunks/main-app-10444e01d2c95d3f.js",
       "static/chunks/874-0715c6660f33056f.js",
-      "static/chunks/app/opal-c1/page-804a8c6023403977.js"
+      "static/chunks/app/about/page-475a06fe932c523a.js"
     ]
   }
 }

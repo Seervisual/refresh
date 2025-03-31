@@ -22,6 +22,36 @@
       "namedRegex": "^/(?:/)?$"
     },
     {
+      "page": "/APP",
+      "regex": "^/APP(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/APP(?:/)?$"
+    },
+    {
+      "page": "/Coming_soon",
+      "regex": "^/Coming_soon(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Coming_soon(?:/)?$"
+    },
+    {
+      "page": "/DUE_presale",
+      "regex": "^/DUE_presale(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/DUE_presale(?:/)?$"
+    },
+    {
+      "page": "/FUTURA",
+      "regex": "^/FUTURA(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/FUTURA(?:/)?$"
+    },
+    {
+      "page": "/UNO",
+      "regex": "^/UNO(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/UNO(?:/)?$"
+    },
+    {
       "page": "/_not-found",
       "regex": "^/_not\\-found(?:/)?$",
       "routeKeys": {},
@@ -32,24 +62,6 @@
       "regex": "^/about(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/about(?:/)?$"
-    },
-    {
-      "page": "/opal-c1",
-      "regex": "^/opal\\-c1(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/opal\\-c1(?:/)?$"
-    },
-    {
-      "page": "/opal-composer",
-      "regex": "^/opal\\-composer(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/opal\\-composer(?:/)?$"
-    },
-    {
-      "page": "/opal-tadpole",
-      "regex": "^/opal\\-tadpole(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/opal\\-tadpole(?:/)?$"
     }
   ],
   "dataRoutes": [],
