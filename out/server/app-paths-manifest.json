@@ -1,7 +1,7 @@
 {
-  "/DUE_presale/page": "app/DUE_presale/page.js",
-  "/about/page": "app/about/page.js",
-  "/FUTURA/page": "app/FUTURA/page.js",
   "/page": "app/page.js",
-  "/APP/page": "app/APP/page.js"
+  "/APP/page": "app/APP/page.js",
+  "/Coming_soon/page": "app/Coming_soon/page.js",
+  "/UNO/page": "app/UNO/page.js",
+  "/FUTURA/page": "app/FUTURA/page.js"
 }

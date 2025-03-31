@@ -7,40 +7,38 @@ export default function AboutPage() {
       <div className="opal-container">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-12">
-            Opal was founded in<br />
-            2020 with a singular idea.
+            <br />
+            2024 ended with an idea.
           </h1>
 
           <h2 className="text-3xl md:text-4xl font-light mb-8">
-            The objects you use most<br />
-            often, should be the best<br />
-            things you own.
+            Climbing training is exploding<br />
+            We should be training with the best tools<br />
+            Take back our time to crush harder.
           </h2>
 
           <div className="text-lg text-gray-300 space-y-6 mb-16">
             <p>
-              We believe that if you are surrounded by quality, each day is a bit better.
+              We believe training has become more synonymous with climbing and with life being so hectic, where do we fit the time? 
             </p>
             <p>
-              We want to bring more of that into the world. We started with one camera, the Opal C1.
+              With this in mind we collaborated with our keen climbing community to mould an exciting new evolution of premium and high quality tools to empower and make training fun for everyone.
             </p>
             <p>
-              Here's to more better days.
+              Time to train.
             </p>
-            <p>
-              The Opal team.
-            </p>
+            
           </div>
 
           <div className="mt-16 pt-16 border-t border-gray-800">
-            <h2 className="text-3xl md:text-4xl font-medium mb-6">Opal Tadpole.</h2>
-            <h3 className="text-2xl md:text-3xl font-light mb-6">Take one home today.</h3>
-            <p className="mb-8 text-lg">Get your Tadpole for $129.</p>
+            <h2 className="text-3xl md:text-4xl font-medium mb-6">DUE.</h2>
+            <h3 className="text-2xl md:text-3xl font-light mb-6">presale on now.</h3>
+            <p className="mb-8 text-lg">Secure yours for a one time only offer.</p>
             <Link
-              href="/shop/opal-tadpole"
+              href="/DUE_presale"
               className="inline-block bg-opal-yellow text-opal-dark font-medium px-8 py-3 rounded-md hover:bg-opacity-90 transition-colors"
             >
-              Order now
+              Pre order now
             </Link>
           </div>
         </div>

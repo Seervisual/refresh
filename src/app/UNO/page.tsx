@@ -10,27 +10,29 @@ export default function TadpolePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6">
-                A new species of webcam
+                A modern take on a classic.
               </h1>
               <h2 className="text-2xl md:text-3xl font-light mb-8">
-                Introducing the Tadpole
+                Introducing the forma UNO
               </h2>
               <p className="text-lg mb-8">
-                The smallest webcam ever built. With a category-first directional microphone, a mirrorless Sony sensor, and the easiest way to mute your call with a tap, it's the perfect webcam to take with you everywhere.
+              Our premiere 20mm edge!!! Many of you asked for a static version of the DUE (no loadcell) so we miniaturised it.  Perfect for ripping new PB's in the gym or warming up at the crag.
+              </p>
+              <p className="text-lg mb-8">Pull with confidence on space grade aluminium. Designed to outperform so you can train smarter and crush harder (slings and weights not included, sorry not sorry).
               </p>
               <p className="text-lg mb-8">
-                And now, it works with both Mac and PC.
+                Comes in Black and Gunmetal.
               </p>
               <Link
                 href="/shop/opal-tadpole"
                 className="inline-block bg-opal-yellow text-opal-dark font-medium px-8 py-3 rounded-md hover:bg-opacity-90 transition-colors"
               >
-                Order now - $129
+                Order now - $119
               </Link>
             </div>
             <div className="relative aspect-square">
               <img
-                src="/images/tadpole.png"
+                src="/images/uno.png"
                 alt="Opal Tadpole Webcam"
                 className="w-full h-full object-contain"
               />
@@ -43,26 +45,26 @@ export default function TadpolePage() {
       <section className="py-16 bg-black">
         <div className="opal-container">
           <h2 className="text-3xl md:text-4xl font-light mb-12 text-center">
-            Uniquely designed for your laptop.
+          Unbeatable class
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
             <div className="text-center">
-              <h3 className="text-xl font-medium mb-4">Teenie-Tiny.</h3>
+              <h3 className="text-xl font-medium mb-4">Compact power.</h3>
               <p className="text-gray-300">
-                The tadpole is just a tad taller than a gummy bear. It fits in your hand and rests nicely on your laptop display.
+              Milled from the same aerospace aluminium as the forma DUE and looking gorgeous, the forma UNO is your go to finger training device using traditional weights.
               </p>
             </div>
             <div className="text-center">
-              <h3 className="text-xl font-medium mb-4">Clip And Go.</h3>
+              <h3 className="text-xl font-medium mb-4">Wrap And Pull.</h3>
               <p className="text-gray-300">
-                The Opal Tadpole was made to go with you. Wrap it around your wrist or put it in its case to keep it safe.
+                Snug in your pocket, pair the UNO with a sling or custom setup and rip a new PB within seconds.
               </p>
             </div>
             <div className="text-center">
-              <h3 className="text-xl font-medium mb-4">Mute with a tap.</h3>
+              <h3 className="text-xl font-medium mb-4">Squeaky clean.</h3>
               <p className="text-gray-300">
-                Touch it or swipe it. Our integrated capacitive USB-C button can mute your mic instantly.
+                Sandblasted aluminium remains cool to the touch and grippy in all conditions. Brush lightly and return to a consistent edge, everytime.
               </p>
             </div>
           </div>
@@ -73,10 +75,10 @@ export default function TadpolePage() {
       <section className="py-16 bg-opal-light text-opal-dark">
         <div className="opal-container">
           <h2 className="text-3xl md:text-4xl font-light mb-12 text-center">
-            Mirrorless quality, peerless reputation.
+            Technique Schmenique
           </h2>
           <p className="text-xl text-center max-w-3xl mx-auto mb-12">
-            Our powerful Sony IMX582 RS sensor combined with our f1.8 six element glass lens produces the truest color you can carry in your pocket.
+            Our custom made True Edge is tilt adjusted when pulling (holding a neutral edge). This keeps the 20mm edge consistent and saves time to constantly readjust your setup.
           </p>
           <div className="flex justify-center">
             <Link
@@ -89,24 +91,12 @@ export default function TadpolePage() {
         </div>
       </section>
 
-      {/* Microphone Section */}
-      <section className="py-16 bg-gradient-to-b from-black to-gray-900">
-        <div className="opal-container">
-          <h2 className="text-3xl md:text-4xl font-light mb-12 text-center">
-            Out of sight? Out of Mic.
-          </h2>
-          <p className="text-xl text-center max-w-3xl mx-auto mb-12">
-            A first on any consumer device, our directional VisiMic microphone captures only what the camera can see. By allowing sound waves to pass through a sonic tunnel inside the device, any sound outside the camera's field of view is not recorded. No noise filtering, just physics.
-          </p>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-16 bg-opal-yellow text-opal-dark">
         <div className="opal-container text-center">
-          <h2 className="text-3xl md:text-4xl font-medium mb-4">Opal Tadpole.</h2>
-          <h3 className="text-2xl md:text-3xl font-light mb-6">Take one home today.</h3>
-          <p className="mb-8 text-lg">Get your Tadpole for $129.</p>
+          <h2 className="text-3xl md:text-4xl font-medium mb-4">forma UNO</h2>
+          <h3 className="text-2xl md:text-3xl font-light mb-6">Begin your training journey today</h3>
+          <p className="mb-8 text-lg">for only $119.</p>
           <Link
             href="/shop/opal-tadpole"
             className="inline-block bg-opal-dark text-white font-medium px-8 py-3 rounded-md hover:bg-opacity-90 transition-colors"

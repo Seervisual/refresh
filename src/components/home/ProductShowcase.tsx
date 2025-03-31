@@ -41,7 +41,7 @@ const ProductShowcase = () => {
           <ProductCard
             title="UNO"
             description="a traditional pull, modernised"
-            imageSrc="/images/formaUNO_website_01.png"
+            imageSrc="/images/uno.png"
             imageAlt="Opal Tadpole Webcam"
             link="/UNO"
           />

@@ -42,7 +42,7 @@ const Header = () => {
               <Link href="/UNO" className="block px-4 py-2 hover:bg-gray-800">UNO</Link>
               <Link href="/DUE_presale" className="block px-4 py-2 hover:bg-gray-800">DUE</Link>
               <Link href="/FUTURA" className="block px-4 py-2 hover:bg-gray-800">FUTURA</Link>
-              <Link href="/APP" className="block px-4 py-2 hover:bg-gray-800">APP</Link>
+              <Link href="/Coming_soon" className="block px-4 py-2 hover:bg-gray-800">APP</Link>
             </div>
           </div>
           <div className="relative group">

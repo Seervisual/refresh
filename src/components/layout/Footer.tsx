@@ -35,13 +35,13 @@ const Footer = () => {
               <li><a href="mailto:support@opalcamera.com" className="text-gray-400 hover:text-white transition-colors"></a></li>
               <li><Link href="/media-kit" className="text-gray-400 hover:text-white transition-colors"></Link></li>
               <li><Link href="/opal-composer/download" className="text-gray-400 hover:text-white transition-colors"></Link></li>
-              <li><Link href="/newsletter" className="text-gray-400 hover:text-white transition-colors">Newsletter</Link></li>
+              <li><Link href="/newsletter" className="text-gray-400 hover:text-white transition-colors">newsletter</Link></li>
             </ul>
           </div>
           <div>
             <h3 className="font-medium mb-4">socials</h3>
             <ul className="space-y-2">
-              <li><a href="https://www.instagram.com/opalcamera/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Instagram</a></li>
+              <li><a href="https://www.instagram.com/forma.training/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">instagram</a></li>
              
             </ul>
           </div>
