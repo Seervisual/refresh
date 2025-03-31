@@ -36,34 +36,26 @@ const Header = () => {
         <nav className="hidden md:flex items-center space-x-8">
           <div className="relative group">
             <button className="py-2 text-white hover:text-opacity-80 transition-opacity">
-              Products
+              products
             </button>
             <div className="absolute top-full left-0 w-48 hidden group-hover:block bg-opal-dark border border-gray-800 rounded-md overflow-hidden">
-              <Link href="/opal-tadpole" className="block px-4 py-2 hover:bg-gray-800">uno</Link>
-              <Link href="/opal-c1" className="block px-4 py-2 hover:bg-gray-800">due</Link>
-              <Link href="/opal-composer" className="block px-4 py-2 hover:bg-gray-800">futura</Link>
+              <Link href="/UNO" className="block px-4 py-2 hover:bg-gray-800">UNO</Link>
+              <Link href="/DUE_presale" className="block px-4 py-2 hover:bg-gray-800">DUE</Link>
+              <Link href="/FUTURA" className="block px-4 py-2 hover:bg-gray-800">FUTURA</Link>
+              <Link href="/APP" className="block px-4 py-2 hover:bg-gray-800">APP</Link>
             </div>
           </div>
           <div className="relative group">
             <button className="py-2 text-white hover:text-opacity-80 transition-opacity">
-              Company
+            <Link href="/DUE_presale" >DUE_presale</Link>
             </button>
-            <div className="absolute top-full left-0 w-48 hidden group-hover:block bg-opal-dark border border-gray-800 rounded-md overflow-hidden">
-              <Link href="/about" className="block px-4 py-2 hover:bg-gray-800">About</Link>
-              <Link href="/terms" className="block px-4 py-2 hover:bg-gray-800">Terms</Link>
-              <Link href="/privacy" className="block px-4 py-2 hover:bg-gray-800">Privacy</Link>
-            </div>
+         
           </div>
           <div className="relative group">
             <button className="py-2 text-white hover:text-opacity-80 transition-opacity">
-              Resources
+            <Link href="/about" >about</Link>
             </button>
-            <div className="absolute top-full left-0 w-48 hidden group-hover:block bg-opal-dark border border-gray-800 rounded-md overflow-hidden">
-              <Link href="/support" className="block px-4 py-2 hover:bg-gray-800">Support</Link>
-              <Link href="/media-kit" className="block px-4 py-2 hover:bg-gray-800">Media Kit</Link>
-              <Link href="/downloads" className="block px-4 py-2 hover:bg-gray-800">Downloads</Link>
-              <Link href="/newsletter" className="block px-4 py-2 hover:bg-gray-800">Newsletter</Link>
-            </div>
+          
           </div>
         </nav>
 

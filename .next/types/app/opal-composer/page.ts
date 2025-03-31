@@ -1,8 +1,8 @@
 // File: D:\SEER\Projects\2024\forma\Social Media\Website\Github\forma_website_reformed\src\app\opal-composer\page.tsx
-import * as entry from '../../../../src/app/opal-composer/page.js'
+import * as entry from '../../../../src/app/FUTURA/page.jsx'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../src/app/opal-composer/page.js')
+type TEntry = typeof import('../../../../src/app/FUTURA/page.jsx')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }

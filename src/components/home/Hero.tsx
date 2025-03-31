@@ -9,7 +9,7 @@ const Hero = () => {
         {/* Background Image - Using div with background image for static site compatibility */}
         <div
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(/images/forma_website_reformed_hero.jpg)' }}
+          style={{ backgroundImage: 'url(/images/forma_website_reformed_hero.png)' }}
         />
 
         {/* Content Overlay */}

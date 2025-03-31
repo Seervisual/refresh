@@ -1,8 +1,8 @@
 // File: D:\SEER\Projects\2024\forma\Social Media\Website\Github\forma_website_reformed\src\app\opal-tadpole\page.tsx
-import * as entry from '../../../../src/app/opal-tadpole/page.js'
+import * as entry from '../../../../src/app/UNO/page.jsx'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../src/app/opal-tadpole/page.js')
+type TEntry = typeof import('../../../../src/app/UNO/page.jsx')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }

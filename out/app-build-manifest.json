@@ -16,30 +16,35 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/opal-tadpole/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/opal-tadpole/page.js"
-    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
+    ],
+    "/UNO/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/UNO/page.js"
+    ],
+    "/DUE_presale/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/DUE_presale/page.js"
+    ],
+    "/FUTURA/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/FUTURA/page.js"
     ],
     "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/about/page.js"
     ],
-    "/opal-c1/page": [
+    "/APP/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/opal-c1/page.js"
-    ],
-    "/opal-composer/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/opal-composer/page.js"
+      "static/chunks/app/APP/page.js"
     ]
   }
 }

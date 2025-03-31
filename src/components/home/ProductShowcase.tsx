@@ -43,21 +43,21 @@ const ProductShowcase = () => {
             description="a traditional pull, modernised"
             imageSrc="/images/formaUNO_website_01.png"
             imageAlt="Opal Tadpole Webcam"
-            link="/opal-tadpole"
+            link="/UNO"
           />
           <ProductCard
             title="DUE"
             description="an evolution of climbing training"
             imageSrc="/images/formaDUE_website_01.png"
             imageAlt="Opal C1 Professional Webcam"
-            link="/opal-c1"
+            link="/DUE_presale"
           />
           <ProductCard
             title="FUTURA"
             description="a reminder to stay in the present"
             imageSrc="/images/futura_website.png"
             imageAlt="Opal Composer Software"
-            link="/opal-composer"
+            link="/FUTURA"
           />
         </div>
       </div>
