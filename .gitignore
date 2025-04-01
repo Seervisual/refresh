@@ -2,4 +2,3 @@
 .netlify
 
 node_modules/ # Ensure this line is present
-node_modules
